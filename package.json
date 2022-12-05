@@ -1,0 +1,25 @@
+{
+  "name": "@buzz-code/crud-nestjs-react-admin",
+  "version": "0.0.1",
+  "description": "Custom utility to handle all common logic for crud websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzz-code/crud-nestjs-react-admin.git"
+  },
+  "keywords": [
+    "nestjs",
+    "crud",
+    "react-admin",
+    "yemot-api"
+  ],
+  "author": "buzz-code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzz-code/crud-nestjs-react-admin/issues"
+  },
+  "homepage": "https://github.com/buzz-code/crud-nestjs-react-admin#readme"
+}
