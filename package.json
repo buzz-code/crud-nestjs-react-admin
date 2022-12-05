@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/buzz-code/crud-nestjs-react-admin/issues"
   },
-  "homepage": "https://github.com/buzz-code/crud-nestjs-react-admin#readme",
-  "publishConfig": {
-    "@buzz-code:registry": "https://npm.pkg.github.com"
-  } 
+  "homepage": "https://github.com/buzz-code/crud-nestjs-react-admin#readme"
 }
