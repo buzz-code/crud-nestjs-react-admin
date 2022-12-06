@@ -1,13 +1,12 @@
 {
   "name": "@buzz-code/crud-nestjs-react-admin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Custom utility to handle all common logic for crud websites",
   "exports": {
-    ".": "./index.js",
     "./client/*.js": "./client/*.js",
-    "./client/*.jsx": "./client/*.jsx"
+    "./client/*.jsx": "./client/*.jsx",
+    ".": "./index.js"
   },
-  "type": "module",
   "scripts": {
     "test": "exit 0"
   },
