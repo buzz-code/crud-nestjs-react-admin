@@ -2,8 +2,8 @@ import { Layout } from 'react-admin';
 import CustomMenu from './Menu';
 
 const CustomLayout = ({ customMenuItems, ...props }) => {
-    const Menu = (
-        <CustomMenu>
+    const Menu = (props) => (
+        <CustomMenu {...props}>
             {customMenuItems}
         </CustomMenu>
     );
