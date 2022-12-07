@@ -1,7 +1,6 @@
 import { Menu, useResourceDefinitions } from 'react-admin';
-import LabelIcon from '@mui/icons-material/Label';
 
-const CustomMenu = ({ hasDashboard }) => {
+const CustomMenu = ({ hasDashboard, children }) => {
     const resources = useResourceDefinitions();
 
     return (
@@ -12,7 +11,7 @@ const CustomMenu = ({ hasDashboard }) => {
             {Object.keys(resources).map(name => (
                 <Menu.ResourceItem key={name} name={name} />
             ))}
-            <Menu.Item to="/yemot-simulator" primaryText="סימולטור" leftIcon={<LabelIcon />} />
+            {children}
         </Menu>
     );
 };
