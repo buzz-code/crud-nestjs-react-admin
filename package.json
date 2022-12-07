@@ -1,12 +1,22 @@
 {
   "name": "@buzz-code/crud-nestjs-react-admin",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Custom utility to handle all common logic for crud websites",
   "exports": {
     "./package.json": "./package.json",
     ".": "./index.js",
     "./client/*": "./client/*",
     "./server/*": "./server/*"
+  },
+  "typesVersions": {
+    "*": {
+      "client/*": [
+        "client/*"
+      ],
+      "server/*": [
+        "server/*"
+      ]
+    }
   },
   "scripts": {
     "test": "exit 0"
