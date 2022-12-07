@@ -9,7 +9,7 @@ const CustomLayout = ({ customMenuItems, ...props }) => {
     );
 
     return (
-        <Layout {...props} menu={<Menu />} />
+        <Layout {...props} menu={Menu} />
     )
 }
 
